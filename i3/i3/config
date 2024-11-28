@@ -203,7 +203,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command while ~/.config/i3/i3bar.conf; do sleep 1; done;
-        
+        font pango:Hack 10 
+ 
         colors {
           statusline #ffffff 
           background #000000 
