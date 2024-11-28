@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # Define image path 
-IMAGE_PATH="$HOME/Downloads/pacman-ghosts.jpg"
+IMAGE_PATH="$HOME/Downloads/wall-arch.png"
 
 # Define colors
-BACKGROUND="#282828"
-FOREGROUND="#ebdbb2"
+BACKGROUND="#000000"
+FOREGROUND="#ffffff"
 WRONG="#cc0000"
 
 i3lock \
@@ -16,7 +16,7 @@ i3lock \
   --ringwrong-color=$WRONG     \
   \
   --inside-color=$BACKGROUND        \
-  --ring-color=$FOREGROUND        \
+  --ring-color=$BACKGROUND        \
   --line-color=$FOREGROUND          \
   --separator-color=$FOREGROUND   \
   \

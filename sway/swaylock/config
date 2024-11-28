@@ -1,10 +1,10 @@
 daemonize
 show-failed-attempts
-image=$HOME/Downloads/Study-table.png
+image=$HOME/Downloads/wall-arch.png
 clock
 effect-blur=3x1
 effect-vignette=0.5:0.5
-color=ebdbb2
+color=ffffff
 font="Hack"
 indicator
 indicator-radius=150
