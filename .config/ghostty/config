@@ -44,3 +44,17 @@
 
 theme = ayu
 font-size = 16
+background-opacity = 0.75
+
+# Keybinds to create the splits
+keybind = alt+shift+k=new_split:up
+keybind = alt+shift+j=new_split:down
+keybind = alt+shift+h=new_split:left
+keybind = alt+shift+l=new_split:right
+
+# Keybinds to move across splits
+keybind = alt+k=goto_split:up
+keybind = alt+j=goto_split:down
+keybind = alt+h=goto_split:left
+keybind = alt+l=goto_split:right
+
