@@ -1,0 +1,6 @@
+arch-update@RaphaelRochet
+space-bar@luchrioh
+tactile@lundal.io
+trayIconsReloaded@selfmade.pl
+user-theme@gnome-shell-extensions.gcampax.github.com
+window-title-is-back@fthx
