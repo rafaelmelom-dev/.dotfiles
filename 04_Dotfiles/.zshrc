@@ -114,3 +114,14 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+#
+#      ____ _   _ ____ _____ ___  __  __ 
+#     / ___| | | / ___|_   _/ _ \|  \/  |
+#    | |   | | | \___ \ | || | | | |\/| |
+#    | |___| |_| |___) || || |_| | |  | |
+#     \____|\___/|____/ |_| \___/|_|  |_|
+#                                    
+
+source ~/.credentials
+alias v=nvim

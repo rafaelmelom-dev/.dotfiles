@@ -1,4 +1,5 @@
 arch-update@RaphaelRochet
+focus-changer@heartmire
 space-bar@luchrioh
 tactile@lundal.io
 trayIconsReloaded@selfmade.pl
