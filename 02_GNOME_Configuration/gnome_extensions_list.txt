@@ -1,7 +1,4 @@
-arch-update@RaphaelRochet
-focus-changer@heartmire
 space-bar@luchrioh
 tactile@lundal.io
-trayIconsReloaded@selfmade.pl
 user-theme@gnome-shell-extensions.gcampax.github.com
-window-title-is-back@fthx
+focus-changer@heartmire
