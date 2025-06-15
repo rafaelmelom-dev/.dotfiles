@@ -45,7 +45,6 @@
 theme = ayu
 font-size = 16
 font-family = FiraCode Nerd Font
-background-opacity = 0.75
 
 # Keybinds to create the splits
 keybind = alt+shift+k=new_split:up

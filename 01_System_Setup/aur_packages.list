@@ -1,7 +1,11 @@
 brmodelo
+libgen-cli-bin
+libgen-cli-bin-debug
+libinput-gestures
 netbeans-bin
 onlyoffice-bin
 rstudio-desktop-bin
 ttf-firacode
+ucl-debug
 yay
 yay-debug

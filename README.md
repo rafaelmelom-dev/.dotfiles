@@ -5,7 +5,7 @@
 
 This document outlines the steps to restore your Arch Linux GNOME environment using the files in this backup set. It also details how the backup information was collected.
 
-**Backup Date:** `2025-05-26`
+**Backup Date:** `2025-06-14`
 
 ## Restore Procedure:
 
