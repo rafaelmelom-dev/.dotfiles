@@ -125,3 +125,14 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.credentials
 alias v=nvim
+alias f="cd ~/Desktop/Projects/Faculdade/"
+
+ydl_playlist_mp3() {
+  if [ -z "$1" ]; then
+    echo "Usage: ydl_playlist_mp3 <YouTube Playlist URL>"
+    return 1
+  fi
+  yt-dlp -x --audio-format mp3 --audio-quality 160K --yes-playlist --output "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "$1"
+}
+
+

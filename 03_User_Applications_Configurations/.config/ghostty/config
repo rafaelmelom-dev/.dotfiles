@@ -42,8 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = ayu
-font-size = 16
+font-size = 18
 font-family = FiraCode Nerd Font
 
 # Keybinds to create the splits
@@ -58,3 +57,5 @@ keybind = alt+j=goto_split:down
 keybind = alt+h=goto_split:left
 keybind = alt+l=goto_split:right
 
+# cursor-style = block
+# shell-integration-features = no-cursor

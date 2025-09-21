@@ -3,3 +3,5 @@ tactile@lundal.io
 user-theme@gnome-shell-extensions.gcampax.github.com
 focus-changer@heartmire
 clipboard-history@alexsaveau.dev
+color-picker@tuberry
+appindicatorsupport@rgcjonas.gmail.com
