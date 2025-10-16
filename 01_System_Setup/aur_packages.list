@@ -1,9 +1,10 @@
 adminer
 android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
-apple_cursor
 brmodelo
 clangd-bin
+code-features
+code-marketplace
 codelldb-bin
 gemini-cli-bin
 jetbrains-toolbox
@@ -20,9 +21,10 @@ python-pyls-isort
 python-pylsp-mypy
 python-pylsp-rope
 r-ncdf4
-r-withr
 rstudio-desktop-bin
 smem
 terminal-tetris
 ttf-firacode
+ulauncher
+webapp-manager
 yay

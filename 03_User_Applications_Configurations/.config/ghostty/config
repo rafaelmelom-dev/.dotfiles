@@ -44,8 +44,7 @@
 
 font-size = 16
 font-family = FiraCode Nerd Font
-theme = TokyoNight Night
-background-opacity = 0.75
+theme = dark:TokyoNight Night,light:TokyoNight Day
 
 # Keybinds to create the splits
 keybind = alt+shift+k=new_split:up
@@ -59,8 +58,9 @@ keybind = alt+j=goto_split:down
 keybind = alt+h=goto_split:left
 keybind = alt+l=goto_split:right
 
-# cursor-style = block
-# shell-integration-features = no-cursor
+cursor-style = block
+shell-integration-features = no-cursor
 
 window-inherit-working-directory = false
 working-directory = "~"
+confirm-close-surface=false

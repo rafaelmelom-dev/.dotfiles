@@ -3,7 +3,6 @@ amberol
 amd-ucode
 android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
-apple_cursor
 aria2
 base
 base-devel
@@ -14,6 +13,9 @@ btrfs-progs
 chromium
 clangd-bin
 cmake
+code
+code-features
+code-marketplace
 codelldb-bin
 dconf-editor
 debugedit
@@ -69,6 +71,7 @@ jq
 jupyter-lsp
 jupyter-notebook
 jupyterlab-lsp
+lazydocker
 lazygit
 libgen-cli-bin
 libinput-gestures
@@ -113,6 +116,7 @@ rstudio-desktop-bin
 rsync
 rust
 scanmem
+sl
 smem
 snapshot
 sudo
@@ -148,9 +152,11 @@ ttf-firacode-nerd
 ttf-noto-nerd
 ttf-roboto
 ttyper
+ulauncher
 vala
 vim
 viu
+webapp-manager
 wine
 wl-clipboard
 yarn
