@@ -5,4 +5,3 @@ focus-changer@heartmire
 clipboard-history@alexsaveau.dev
 color-picker@tuberry
 appindicatorsupport@rgcjonas.gmail.com
-advanced-alt-tab@G-dH.github.com

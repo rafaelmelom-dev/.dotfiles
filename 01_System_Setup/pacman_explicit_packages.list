@@ -108,6 +108,7 @@ python-cryptography
 python-gdbgui
 python-jupyterlab-vim
 python-lsp-all
+python-pydbus
 r
 r-ncdf4
 raylib
@@ -152,7 +153,6 @@ ttf-firacode-nerd
 ttf-noto-nerd
 ttf-roboto
 ttyper
-ulauncher
 vala
 vim
 viu
