@@ -5,3 +5,4 @@ focus-changer@heartmire
 clipboard-history@alexsaveau.dev
 color-picker@tuberry
 appindicatorsupport@rgcjonas.gmail.com
+blur-my-shell@aunetx

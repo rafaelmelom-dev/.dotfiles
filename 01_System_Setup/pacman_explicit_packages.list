@@ -93,6 +93,7 @@ nethack
 networkmanager
 nginx
 ngrok
+nmap
 noto-fonts
 noto-fonts-emoji
 npm
@@ -117,7 +118,6 @@ rstudio-desktop-bin
 rsync
 rust
 scanmem
-sl
 smem
 snapshot
 sudo
@@ -157,6 +157,7 @@ vala
 vim
 viu
 webapp-manager
+wget
 wine
 wl-clipboard
 yarn
