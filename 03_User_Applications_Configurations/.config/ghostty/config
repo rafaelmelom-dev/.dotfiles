@@ -42,11 +42,13 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-size = 16
+font-size = 18
 font-family = FiraCode Nerd Font
 # theme = dark:TokyoNight Night,light:TokyoNight Day
 theme = dark:Gruvbox Dark,light:Gruvbox Light
 background-opacity = 0.9
+
+adjust-cursor-thickness = 1
 
 # Keybinds to create the splits
 keybind = alt+shift+k=new_split:up

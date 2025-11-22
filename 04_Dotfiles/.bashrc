@@ -32,6 +32,8 @@ export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
 source ~/.credentials
 alias lazyvim='NVIM_APPNAME=lazyvim nvim'
 alias faculdade="cd ~/Desktop/Projects/Faculdade/"
+alias obsidian="cd ~/Desktop/Obsidian"
+alias code="code --ozone-platform-hint=wayland"
 
 ydl_playlist_mp3() {
   if [ -z "$1" ]; then
@@ -40,3 +42,5 @@ ydl_playlist_mp3() {
   fi
   yt-dlp -x --audio-format mp3 --audio-quality 160K --yes-playlist --output "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "$1"
 }
+
+

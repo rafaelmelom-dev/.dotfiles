@@ -1,15 +1,14 @@
-adminer
 android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
-brmodelo
 clangd-bin
 code-features
 code-marketplace
 codelldb-bin
-gemini-cli-bin
+google-chrome
 jetbrains-toolbox
 libgen-cli-bin
 libinput-gestures
+neofetch
 ngrok
 oneko
 onlyoffice-bin
@@ -25,5 +24,4 @@ rstudio-desktop-bin
 smem
 terminal-tetris
 ttf-firacode
-webapp-manager
 yay
