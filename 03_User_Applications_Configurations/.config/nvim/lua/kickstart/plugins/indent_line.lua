@@ -6,27 +6,27 @@ return {
         main = 'ibl',
         opts = {
             indent = {
-                char = "│",
+                char = '│',
             },
 
             scope = {
                 enabled = true,
                 show_start = true,
                 show_end = true,
-                highlight = "FloatTitle"
+                highlight = 'FloatTitle',
             },
 
             exclude = {
                 filetypes = {
-                    "help",
-                    "alpha",
-                    "dashboard",
-                    "neo-tree",
-                    "Trouble",
-                    "lazy",
-                    "mason",
+                    'help',
+                    'alpha',
+                    'dashboard',
+                    'neo-tree',
+                    'Trouble',
+                    'lazy',
+                    'mason',
                 },
             },
-        }
+        },
     },
 }

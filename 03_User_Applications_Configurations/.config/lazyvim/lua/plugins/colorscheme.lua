@@ -1,5 +1,19 @@
 return {
   {
+    "navarasu/onedark.nvim",
+    priority = 1000,
+    config = function()
+      require("onedark").setup({
+        style = "warmer",
+        transparent = true,
+        term_colors = true,
+
+        toggle_style_key = "<C-t>",
+        toggle_style_list = { "warmer", "light" },
+      })
+    end,
+  },
+  {
     "folke/tokyonight.nvim",
     opts = {
       style = "night",
@@ -20,7 +34,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "onedark",
     },
   },
 }

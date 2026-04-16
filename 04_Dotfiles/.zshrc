@@ -51,3 +51,8 @@ ydl_playlist_mp3() {
 }
 
 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/rafaelmelom/.lmstudio/bin"
+# End of LM Studio CLI section
+

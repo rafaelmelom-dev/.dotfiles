@@ -8,6 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+bind 'set completion-ignore-case on'
 
 #                  _                                      _
 #   ___ _ ____   _(_)_ __ ___  _ __  _ __ ___   ___ _ __ | |_
@@ -29,10 +30,14 @@ export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
 export PATH="$PATH:/opt/miniconda3/bin"
 export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
 
+# Others environment 
+export EDITOR="nvim"
+
+
 source ~/.credentials
 alias lazyvim='NVIM_APPNAME=lazyvim nvim'
 alias faculdade="cd ~/Desktop/Projects/Faculdade/"
-alias obsidian="cd ~/Desktop/Obsidian"
+alias obsidian="~/.local/bin/obsidian"
 alias code="code --ozone-platform-hint=wayland"
 
 ydl_playlist_mp3() {
@@ -42,5 +47,7 @@ ydl_playlist_mp3() {
   fi
   yt-dlp -x --audio-format mp3 --audio-quality 160K --yes-playlist --output "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "$1"
 }
+
+
 
 

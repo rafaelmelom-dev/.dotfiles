@@ -44,9 +44,10 @@
 
 font-size = 18
 font-family = FiraCode Nerd Font
+theme = dark:GitHub Dark Default,light:GitHub Light Default
 # theme = dark:TokyoNight Night,light:TokyoNight Day
-theme = dark:Gruvbox Dark,light:Gruvbox Light
-background-opacity = 0.9
+# theme = dark:Gruvbox Dark,light:Gruvbox Light
+# background-opacity = 0.75
 
 adjust-cursor-thickness = 1
 
@@ -62,8 +63,8 @@ keybind = alt+j=goto_split:down
 keybind = alt+h=goto_split:left
 keybind = alt+l=goto_split:right
 
-# cursor-style = block
-# shell-integration-features = no-cursor
+cursor-style = block
+shell-integration-features = no-cursor
 
 window-inherit-working-directory = false
 working-directory = "~"
