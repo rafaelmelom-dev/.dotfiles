@@ -43,11 +43,12 @@
 # resize-overlay-duration = 4s 200ms
 
 font-size = 18
-font-family = FiraCode Nerd Font
-theme = dark:GitHub Dark Default,light:GitHub Light Default
+# font-family = FiraCode Nerd Font
+font-family = JetBrainsMono Nerd Font Mono
+# theme = dark:GitHub Dark Default,light:GitHub Light Default
 # theme = dark:TokyoNight Night,light:TokyoNight Day
-# theme = dark:Gruvbox Dark,light:Gruvbox Light
-# background-opacity = 0.75
+theme = dark:Gruvbox Dark,light:Gruvbox Light
+# background-opacity = 0.8
 
 adjust-cursor-thickness = 1
 
@@ -63,7 +64,7 @@ keybind = alt+j=goto_split:down
 keybind = alt+h=goto_split:left
 keybind = alt+l=goto_split:right
 
-cursor-style = block
+cursor-style = bar
 shell-integration-features = no-cursor
 
 window-inherit-working-directory = false

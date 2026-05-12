@@ -1,7 +1,7 @@
 android-sdk-cmdline-tools-latest
 android-sdk-platform-tools
 android-sdk-platform-tools-debug
-bambustudio-bin
+bambustudio-bin-debug
 bruno-bin
 code-features
 code-marketplace
@@ -18,14 +18,11 @@ onlyoffice-bin
 packettracer
 pandoc-bin
 python-gdbgui
-python-jupyterlab-vim
 python-lsp-all
 python-pyls-isort
 python-pylsp-mypy
 python-pylsp-rope
 smem
-swaylock-effects-debug
 terminal-tetris
 ttf-firacode
-webkit2gtk
 yay
