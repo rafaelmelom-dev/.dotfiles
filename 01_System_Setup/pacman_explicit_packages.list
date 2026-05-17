@@ -1,3 +1,4 @@
+adw-gtk-theme
 amberol
 amd-ucode
 android-sdk-cmdline-tools-latest
@@ -62,6 +63,7 @@ gnome-keyring
 gnome-menus
 gnome-shell
 gnome-system-monitor
+gnome-terminal
 gnome-text-editor
 gnome-tweaks
 go
@@ -194,3 +196,4 @@ yay
 yazi
 yt-dlp
 zip
+zsh

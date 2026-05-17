@@ -42,13 +42,9 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-font-size = 18
-# font-family = FiraCode Nerd Font
-font-family = JetBrainsMono Nerd Font Mono
-# theme = dark:GitHub Dark Default,light:GitHub Light Default
-# theme = dark:TokyoNight Night,light:TokyoNight Day
-theme = dark:Gruvbox Dark,light:Gruvbox Light
-# background-opacity = 0.8
+font-size = 16
+font-family = FiraCode Nerd Font
+theme = dark:Adwaita Dark,light:Adwaita
 
 adjust-cursor-thickness = 1
 
@@ -71,4 +67,3 @@ window-inherit-working-directory = false
 working-directory = "~"
 confirm-close-surface=false
 
-# window-decoration = none
