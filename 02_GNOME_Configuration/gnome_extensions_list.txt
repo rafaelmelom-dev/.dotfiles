@@ -1,4 +1,4 @@
 user-theme@gnome-shell-extensions.gcampax.github.com
 space-bar@luchrioh
 status-tray@keithvassallo.com
-forge@jmmaranan.com
+dash-to-dock@micxgx.gmail.com
