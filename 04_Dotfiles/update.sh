@@ -1,6 +1,6 @@
 #!/bin/bash 
 
 # updating dotfiles
-cp -r ~/{.bashrc,.zshrc} .
+cp ~/.bashrc .
 
 echo "Dotfiles updated ...";

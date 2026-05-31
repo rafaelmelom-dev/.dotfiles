@@ -1,5 +1,4 @@
 # This is the configuration file for Ghostty.
-#
 # This template file has been automatically created at the following
 # path since Ghostty couldn't find any existing config files on your system:
 #
@@ -60,10 +59,12 @@ keybind = alt+j=goto_split:down
 keybind = alt+h=goto_split:left
 keybind = alt+l=goto_split:right
 
-cursor-style = bar
+cursor-style = block
 shell-integration-features = no-cursor
 
 window-inherit-working-directory = false
 working-directory = "~"
 confirm-close-surface=false
 
+window-width = 120
+window-height = 36

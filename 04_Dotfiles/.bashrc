@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 bind 'set completion-ignore-case on'
@@ -17,7 +17,7 @@ bind 'set completion-ignore-case on'
 #  \___|_| |_|\_/ |_|_|  \___/|_| |_|_| |_| |_|\___|_| |_|\__|
 
 # Setting up java environment
-export JAVA_HOME="/usr/lib/jvm/java-25-openjdk/"
+export JAVA_HOME="/usr/lib/jvm/java-21-openjdk/"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 # Setting up android environment
@@ -26,9 +26,7 @@ export ANDROID_SDK_ROOT="/opt/android-sdk"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
 
-# Setting up miniconda to path 
-export PATH="$PATH:/opt/miniconda3/bin"
-export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
+export PATH="$PATH:$HOME/.local/bin"
 
 # Others environment 
 export EDITOR="nvim"
@@ -37,7 +35,6 @@ export EDITOR="nvim"
 source ~/.credentials
 alias lazyvim='NVIM_APPNAME=lazyvim nvim'
 alias faculdade="cd ~/Desktop/Projects/Faculdade/"
-alias obsidian="~/.local/bin/obsidian"
 alias code="code --ozone-platform-hint=wayland"
 
 ydl_playlist_mp3() {
@@ -47,7 +44,4 @@ ydl_playlist_mp3() {
   fi
   yt-dlp -x --audio-format mp3 --audio-quality 160K --yes-playlist --output "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "$1"
 }
-
-
-
 
